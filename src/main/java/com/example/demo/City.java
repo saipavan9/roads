@@ -5,13 +5,17 @@ import java.util.Objects;
 import java.util.Set;
 import java.util.stream.Collectors;
 
+/**
+ * Class represent
+ */
 public class City {
-    String name;
+    private String name;
 
     private Set<City> neighbours = new HashSet<>();
 
     private City(String name) {
-        this.name = name;
+        Objects.requireNonNull(name);
+        this.name = name.toUpperCase();
     }
 
     private City() {

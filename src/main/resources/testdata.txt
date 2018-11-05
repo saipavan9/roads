@@ -2,4 +2,13 @@ a,b
 a,c
 a,d
 b,c
+b,a
 d,a
+a,a
+a,e
+e,f
+k,l
+l,m
+m,n
+n,l
+f,f

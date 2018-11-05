@@ -41,7 +41,7 @@ Using Java command line
 
 Example `a` and `e` _are not_ connected:
 
-[http://localhost:4242/connected?origin=a&destination=e](http://localhost:4242/connected?origin=a&destination=e) (result **true**)
+[http://localhost:4242/connected?origin=a&destination=e](http://localhost:4242/connected?origin=a&destination=e) (result **false**)
 
 Example `f` and `k` _are_ connected:
 

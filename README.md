@@ -52,7 +52,7 @@ Example `d` and `k` _are not_ connected
 
 [http://localhost:4242/connected?origin=d&destination=k](http://localhost:4242/connected?origin=a&destination=e) (result **false**)
 
-### Provide you own roadmap file
+### Provide your own roadmap file
 
 Using maven Spring Boot plugin 
 ``` 

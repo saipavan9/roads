@@ -6,7 +6,8 @@ import java.util.Set;
 import java.util.stream.Collectors;
 
 /**
- * Class represent
+ * Class represents a City along with the connected neighbouring cities
+ * City names are not case sensitive in computations
  */
 public class City {
     private String name;

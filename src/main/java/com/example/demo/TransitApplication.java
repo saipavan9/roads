@@ -10,6 +10,11 @@ import org.springframework.web.bind.annotation.*;
 
 import java.util.Objects;
 
+
+/**
+ * SpringApplication along with a simple REST controller
+ * and a custom exception handler
+ */
 @SpringBootApplication
 @RestController
 public class TransitApplication {

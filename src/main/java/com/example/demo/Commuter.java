@@ -13,6 +13,12 @@ public class Commuter {
     private Commuter() {
     }
 
+    /**
+     * Find if destination city is reachable from origin
+     * @param origin the origin
+     * @param destination the destination
+     * @return true if cities are connected
+     */
     public static boolean commute(City origin, City destination) {
 
 
@@ -38,7 +44,13 @@ public class Commuter {
                 bucketlist.addAll(city.getNeighbours());
                 bucketlist.removeAll(visited);
 
-                LOG.info("Visiting: [" + city.getName() + "] , neighbours: [" + prettyPrint(city.getNeighbours()) + "], bucketlist: [" + prettyPrint(bucketlist) + "]");
+                LOG.info("Visiting: ["
+                        + city.getName()
+                        + "] , neighbours: ["
+                        + prettyPrint(city.getNeighbours())
+                        + "], bucketlist: ["
+                        + prettyPrint(bucketlist)
+                        + "]");
             }
 
             bucketlist.removeAll(Collections.singleton(city));

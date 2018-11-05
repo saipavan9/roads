@@ -18,6 +18,11 @@ import java.util.HashMap;
 import java.util.Map;
 import java.util.Scanner;
 
+/**
+ * Build a road map from the text file. Ensure names are not case sensitive.
+ * The application will fail fast if data file is not readable or invalid
+ * White spaces and empty lines ignored
+ */
 @Component
 public class County {
 

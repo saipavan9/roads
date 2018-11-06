@@ -87,7 +87,7 @@ public class TransitApplicationTests {
     @Test
     public void badRequestIT() {
         String body = restTemplate.getForObject("/connected", String.class);
-        ResponseEntity<Object> response = restTemplate.exchange("/connected", HttpMethod.GET, HttpEntity.EMPTY, Object.class);
+        ResponseEntity<String> response = restTemplate.exchange("/connected?origin=none&destination=none", HttpMethod.GET, HttpEntity.EMPTY, String.class);
         Assert.assertEquals(response.getStatusCode(), HttpStatus.BAD_REQUEST);
     }
 

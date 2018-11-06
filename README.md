@@ -37,6 +37,11 @@ Using Java command line
     java -jar target/transit-0.0.1.jar
 ```
 
+### Show the city list and the satellite cities 
+
+[http://localhost:4242/](http://localhost:4242/) 
+
+
 ### Play with it
 
 Example `a` and `e` _are not_ connected:
@@ -63,3 +68,8 @@ Using Java command line
     java -Ddata.file=/tmp/mytest.txt -jar target/transit-0.0.1.jar
    
 ```
+### Swagger
+
+[http://localhost:4242/swagger-ui.html](http://localhost:4242/swagger-ui.html)
+   
+

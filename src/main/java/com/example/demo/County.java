@@ -75,8 +75,8 @@ public class County {
                 City A = cityMap.getOrDefault(Akey, City.build(Akey));
                 City B = cityMap.getOrDefault(Bkey, City.build(Bkey));
 
-                A.addNeighbour(B);
-                B.addNeighbour(A);
+                A.addNearby(B);
+                B.addNearby(A);
 
                 cityMap.put(A.getName(), A);
                 cityMap.put(B.getName(), B);
